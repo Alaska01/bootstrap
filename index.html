@@ -1,108 +1,1370 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Bootstrap 4 Learning</title>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-		integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-    <link rel="stylesheet" href="css/styles.css">
-    <title>BOOTSTRAP: Responsive Design With CSS Framework</title>
-  </head>
-  <body>
-      <div class="container-fluid">
-                <div class="bg-danger">
-                    <div class="row">
-                        <div class="col"><img class="img-white nw-logo" src="images/logo.svg" alt="logo"></div>
-                        <div class="col">
-                            <div class="row">
-                                <div class="col"><img src="images/person-fill.svg" alt="person-fill"></div>
-                                <div class="col">
-                                    <button type="button" class="btn btn-primary btn-sm">Subscribe <i class="fas fa-chevron-right"></i> </button>
-                                </div>
-                                <div class="col"><img src="images/hamburger.svg" alt="hamburger menu"></div>
-                            </div>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Bootstrap 4 Learning: News Week Practicals</title>
 
-                        </div>
-                    </div>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Hello, world!</title>
+</head>
+
+<body>
+  <!-- ***************************************Top Page**************************************************** -->
+
+  <div class="container-fluid">
+    <div class="top-page row d-flex justify-content-between align-items-end pb-4 nav-color px-3">
+      <div class="d-none d-lg-block">
+        <p class="text-white d-none d-lg-block">
+          <a class="nav-link font-weight-bolder text-white" href="#"><i class="fas fa-cloud-sun"></i> 25&#8451; Lagos,
+            NG</a></p>
+        <p class="text-white d-none d-lg-block pl-3">Thursday, June 25, 2020</p>
+      </div>
+
+      <img class="img-white newsweek-img-nav pb-lg-4" src="images/newsweek1.svg" alt="logo">
+
+
+
+      <div class="row pb-lg-4">
+        <img class="d-block d-lg-none nav-height-icon" src="images/person1-fill.svg" alt="person fill">
+        <p class="h3 text-white d-none d-lg-block mr-3">Login</p>
+        <a type="button" class="btn btn-warning btn-linear mr-lg-3 btn-xs nav-height-icon btn-1"> <span
+            class="small-btn-1 text-small">Small button <i class="fas fa-chevron-right"></i> </span> </a>
+        <img class="mr-lg-3 nav-height-icon" src="images/hamburger.svg" alt="hamburger">
+      </div>
+    </div>
+    <!-- ************************Trapezoid*************************************** -->
+    <div class="trapezoid-1 d-none d-lg-block">
+
+    </div>
+  </div>
+  <!-- ***********************************Navigation Container********************************************** -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light px-0 py-2 d-none d-lg-block">
+
+    <ul class="navbar-nav container-fluid d-flex justify-content-between align-items-center  ">
+      <li class="nav-item active pl-xl-3 border-right ">
+        <a class="nav-sport text-dark font-weight-bold text-nowrap" href="#">U.S<span
+            class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item border-right">
+        <a class="nav-sport  text-dark font-weight-bold text-center" href="#">World</a>
+      </li>
+
+      <li class="nav-item ">
+        <a class="nav-sport  border-right text-dark font-weight-bold" href="#">Busines</a>
+      </li>
+
+      <li class="nav-item border-right">
+        <a class="nav-sport  text-dark font-weight-bold text-nowrap" href="#">Tech & Science</a>
+      </li>
+
+      <li class="nav-item border-right">
+        <a class="nav-sport  text-dark font-weight-bold" href="#">Culture</a>
+      </li>
+
+      <li class="nav-item border-right">
+        <a class="nav-sport  text-dark font-weight-bold text-justify" href="#">Newsgeek</a>
+      </li>
+
+      <li class="nav-item border-right">
+        <a class=" nav-sport text-dark font-weight-bold" href="#">Sports</a>
+      </li>
+
+      <li class="nav-item border-right">
+        <a class="nav-sport  text-dark font-weight-bold" href="#">Health</a>
+      </li>
+
+      <li class="nav-item border-right">
+        <a class="nav-sport  text-dark font-weight-bold text-nowrap" href="#">The Debate</a>
+      </li>
+
+      <li class="nav-item border-right">
+        <a class="nav-sport  text-dark font-weight-bold" href="#">Vantage</a>
+      </li>
+
+      <li class="nav-item pr-xl-5 mr-xl-5">
+        <a class="nav-sport  text-dark font-weight-bold text-nowrap" href="#">Weather
+          <span>Search <i class="fas fa-search nav-item"></i> </span></a>
+      </li>
+
+    </ul>
+    <!-- </div> -->
+  </nav>
+  <div class="navbar navbar-expand-lg navbar-light bg-light px-0 py-2 d-none d-lg-block">
+    <ul class="navbar-nav container-fluid d-flex justify-content-start align-items-center ">
+      <li class="pl-4 pr-3"><a class="text-dark" href="#">TRENDING</a></li>
+      <li class="px-3"><a class="text-dark" href="#">DONALD TRUMP</a></li>
+      <li class="px-3"><a class="text-dark" href="#">JOE BIDEN</a></li>
+      <li class="px-3"><a class="text-dark" href="#">CHINA</a></li>
+      <li class="px-3"><a class="text-dark" href="#">CORONAVIRUS</a></li>
+      <li class="px-3"><a class="text-dark" href="#">2020 ELECTION</a></li>
+    </ul>
+  </div>
+
+  
+
+  </div>
+
+  <!-- ************************************************Main Body Start**************************************** -->
+  <div class="container-fluid">
+    <div class="row">
+      <!-- <div class="d-flex flex-nowrap"> -->
+      <!-- ****************************First Column**************************************************** -->
+      <div class="col-lg col-md-5 col-sm-12 px-0 mx-0">
+        <p class="text-muted pl-4">FEATURED STORIES</p>
+        <!-- ***************************** First Card First Column*********************************** -->
+        <div class="col-lg-12">
+          <div class="card mx-0 border-0 pl-3" width="">
+            <img class="card-img-top"
+              src="https://d.newsweek.com/en/full/1603397/hawk-newsome.webp?w=591&h=364&f=e7bb9564e839e8f6934b701f5bbb7b53"
+              alt="Card image cap" height="230">
+            <div class="card-block text-left">
+              <p class="card-text lead">Trump Slams Democrat-Led, Majority-Black Cities: 'It's Like Living in Hell'</p>
+              <p class="card-subtitle ">During a pre-taped, sit-down interview with Fox News' Sean Hannity that aired
+                Thursday, Trump slammed crime in inner cities and said he's often thanked for his "law and order"
+                approach amid unrest across the country.</p>
+
+              <img class="img-fluid py-3"
+                src="https://d.newsweek.com/en/full/1603704/coronavirus.webp?w=397&h=265&q=90&f=e7c1ba0887a462b2e9ce4b614df9272f"
+                alt="pic">
+              <p>CDC Coronavirus Symptoms List Added 3 New Symptoms, Including Runny Nose
+              </p>
+              <p>According to recent data, the U.S. leads the world in the number of positive coronavirus cases with
+                2,502,311 instances of the infection reported.</p>
+
+              <img class="img-fluid py-3"
+                src="https://d.newsweek.com/en/full/1603835/george-floyd-protest-placards.webp?w=397&h=265&q=90&f=9153cc3a5d86dbcef2cf13503ca76d7b"
+                alt="pic">
+              <p>Bans on Chokeholds, No-Knock Warrants Have Bipartisan Support: Poll</p>
+              <p>U.S. voters supporting both major parties also strongly backed a requirement for police to use body
+                cameras.</p>
+
+              <img class="img-fluid py-3"
+                src="https://d.newsweek.com/en/full/1603835/george-floyd-protest-placards.webp?w=397&h=265&q=90&f=9153cc3a5d86dbcef2cf13503ca76d7b"
+                alt="pic">
+              <p>Bans on Chokeholds, No-Knock Warrants Have Bipartisan Support: Poll</p>
+              <p>U.S. voters supporting both major parties also strongly backed a requirement for police to use body
+                cameras.</p>
+
+              <img class="img-fluid py-3"
+                src="https://d.newsweek.com/en/full/1603835/george-floyd-protest-placards.webp?w=397&h=265&q=90&f=9153cc3a5d86dbcef2cf13503ca76d7b"
+                alt="pic">
+              <p>Bans on Chokeholds, No-Knock Warrants Have Bipartisan Support: Poll</p>
+              <p>U.S. voters supporting both major parties also strongly backed a requirement for police to use body
+                cameras.</p>
+
+              <img class="img-fluid py-3"
+                src="https://d.newsweek.com/en/full/1603835/george-floyd-protest-placards.webp?w=397&h=265&q=90&f=9153cc3a5d86dbcef2cf13503ca76d7b"
+                alt="pic">
+              <p>Bans on Chokeholds, No-Knock Warrants Have Bipartisan Support: Poll</p>
+              <p>U.S. voters supporting both major parties also strongly backed a requirement for police to use body
+                cameras.</p>
+
+              <img class="img-fluid py-3"
+                src="https://d.newsweek.com/en/full/1603835/george-floyd-protest-placards.webp?w=397&h=265&q=90&f=9153cc3a5d86dbcef2cf13503ca76d7b"
+                alt="pic">
+              <p>Bans on Chokeholds, No-Knock Warrants Have Bipartisan Support: Poll</p>
+              <p>U.S. voters supporting both major parties also strongly backed a requirement for police to use body
+                cameras.</p>
+
+              <img class="img-fluid py-3"
+                src="https://d.newsweek.com/en/full/1603835/george-floyd-protest-placards.webp?w=397&h=265&q=90&f=9153cc3a5d86dbcef2cf13503ca76d7b"
+                alt="pic">
+              <p>Bans on Chokeholds, No-Knock Warrants Have Bipartisan Support: Poll</p>
+              <p>U.S. voters supporting both major parties also strongly backed a requirement for police to use body
+                cameras.</p>
+
+              <div class="card-footer border border-dark">
+                <p>
+                  Newsweek AMPLIFY Launches Strategic Partnership Solutions for Brands
+                </p>
+                <p>
+                  Newsweek AMPLIFY Launches Strategic Partnership Solutions for Brands
+                </p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- ******************Close of First Column div**************** -->
+      </div>
+
+
+
+      <!-- ***********************************Second Column********************************************* -->
+      <div class="col-lg-5 col-md-7  px-0 mx-0">
+        <p class="text-muted pl-3">TOP STORY</p>
+        <!-- *********************************First Card Second Column********************************** -->
+        <div class="col-lg-12 ">
+          <div class="card border-0">
+            <img class="card-img-top"
+              src="https://d.newsweek.com/en/full/1603397/hawk-newsome.webp?w=591&h=364&f=e7bb9564e839e8f6934b701f5bbb7b53"
+              alt="Card image cap" height="300">
+            <div class="card-block text-left">
+              <p class="card-text ">McConnell Says U.S. Needs 'More Testing, Not Less' After Trump Comments</p>
+              <p class="card-subtitle ">"We all need to scale up," Senate Majority Leader Mitch McConnell (R-KY) said.
+              </p>
+            </div>
+            <!-- ************************FIRST SUB COLUMNS A,B and C******************* -->
+            <div class="row">
+              <div class="col-12">MY TURN</div>
+              <div class="col-4 ">
+                <img class="img-fluid py-1 mx-0"
+                  src="https://d.newsweek.com/en/full/1601757/racism-fathers-day-black-lives-matter-father.webp?w=397&h=397&f=a558e40ae45f8c6df39831cfe21ce8f7"
+                  alt="pic">
+                <p class="py-1">'I Am A Black Father, It's Impossible to Prepare Your Kids For Racism'</p>
+
+              </div>
+
+              <div class="col-4   mx-0">
+                <img class="img-fluid py-1 px-0 mx-0 "
+                  src="https://d.newsweek.com/en/full/1596881/meghan-markle-look-alike-new-jersey.webp?w=397&h=397&f=f991f48848d948d0de8bbdb99fed81f5"
+                  alt="pic">
+                <p class="py-1 px-0 mx-0">'I Was Bullied About My Appearance, Now I'm A Meghan Markle Look-Alike'</p>
+
+              </div>
+
+
+
+              <div class="col-4  ">
+                <img class="img-fluid py-1"
+                  src="https://d.newsweek.com/en/full/1601941/fathers-day-single-mom-motherhood.webp?w=397&h=397&f=e27c6d4b4c884a3fe77704395722c092"
+                  alt="pic">
+                <p class="py-1">'I'm a Single Mom, This Is Why I Dread Father's Day'</p>
+
+              </div>
+
+              <!-- ************************SECOND SUB COLUMNS A,B and C******************* -->
+
+              <div class="col-12">CULTURE & TRAVEL </div>
+
+              <div class="col-4 ">
+                <img class="img-fluid py-1 mx-0"
+                  src="https://d.newsweek.com/en/full/1602238/team-lioness.webp?w=397&h=397&f=d12e2ffe427f96e7ed87caf3daa6c01a"
+                  alt="pic">
+                <p class="py-1">Meet Team Lioness: Female Rangers Deterring Poachers in Kenya</p>
+
+              </div>
+
+              <div class="col-4 ">
+                <img class="img-fluid py-1 mx-0"
+                  src="https://d.newsweek.com/en/full/1600331/traveler-wears-mask-airport.webp?w=397&h=397&f=74096feff240f7c68e3bbfd4b86a3a0b"
+                  alt="pic">
+                <p class="py-1">How Coronavirus Has Impacted Travelers of Color</p>
+
+              </div>
+
+              <div class="col-4 ">
+                <img class="img-fluid py-1 mx-0"
+                  src="https://d.newsweek.com/en/full/1597714/cul-williemays-banner.webp?w=397&h=397&l=47&t=32&f=5def59ac589b761fc4323b0c97719e59"
+                  alt="pic">
+                <p class="py-1">Willie Mays Explains Why the All-Star Game Meant So Much to His Generation</p>
+
+              </div>
+
+              <!-- ******************SINGLE COLUMN MIDDLE ********************************** -->
+              <div class="col-12">MORE STORIES</div>
+
+              <hr class="gray-line">
+              <div class="col-12 d-flex justify-content-between border-dark">
+                <img class="w-25 p-1"
+                  src="https://d.newsweek.com/en/full/1603860/democrats-leading-gop-incumbents-key-senate-races.webp?w=95&h=95&f=76bac7a7d33d05ecc07525959dfbc1a5"
+                  alt="pic" height="100">
+                <div class="">
+                  <p>Democratic Challengers Lead GOP Incumbents in Key Senate Races, Polls Show</p>
+                  <p>Polling averages in Arizona, Maine and North Carolina currently show Democrats in the lead,
+                    according to Real Clear Politics.</p>
                 </div>
-                
-                <nav class="navbar navbar-expand-sm bg-warning d-none d-lg-block">
-                    <ul class="navbar-nav d-flex justify-content-between" >
-                        <li class="nav-item  border-right">
-                        <a class="nav-link " href="#">US</a>
-                        </li>
-                        <li class="nav-item col-1 border-right">
-                        <a class="nav-link" href="#">World</a>
-                        </li>
-                        <li class="nav-item col-1 border-right">
-                            <a class="nav-link" href="#">Business</a>
-                        </li>
-                        <li class="nav-item border-right">
-                            <a class="nav-link" href="#">Tech & Science</a>
-                        </li>
-                        <li class="nav-item col-1 border-right">
-                            <a class="nav-link" href="#">Culture</a>
-                        </li>
-                        <li class="nav-item col-1 border-right">
-                            <a class="nav-link" href="#">Newsgeek</a>
-                        </li>
-                        <li class="nav-item border-right">
-                            <a class="nav-link" href="#">Sports</a>
-                        </li>
-                        <li class="nav-item col-1 border-right">
-                            <a class="nav-link" href="#">Health</a>
-                        </li>
-                        <li class="nav-item col border-right">
-                            <a class="nav-link" href="#">The Debate</a>
-                        </li>
-                        <li class="nav-item col-1 border-right">
-                            <a class="nav-link" href="#">Vantage</a>
-                        </li>
-                        <li class="nav-item col-1 border-right">
-                            <a class="nav-link" href="#">Weather</a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link" href="#">Search <span> &nbsp &nbsp &nbsp &nbsp</span><img src="images/search.svg"></a>
-                        </li>
-                  </ul>
-          </nav>
-
-          <div class="row">
-              <div class="col-3">
-                  <p>FEATURED STORIES</p>
-                  <img src="https://d.newsweek.com/en/full/1602774/chop-seattle-end-police-force.jpg?w=397&h=265&q=90&f=3fa7a7b7265fa20f9f42d19b713bd309" class="img-fluid" alt="Responsive image">
-                  <h4>Seattle Police, Protesters Brace for Violence as Mayor Orders CHOP Cleared</h4>
-                  <p>"We're no longer allowed to use things like tear gas and pepper spray. The only thing that we can use is our sidearms or our batons."</p>
               </div>
-              <div class="col-6">
-                <p>TOP STORY</p>
-                <img src="https://d.newsweek.com/en/full/1601971/trump-tulsa-rally.jpg?w=591&h=364&f=b4b1018f4886507e8b1f4897a143574c" class="img-fluid" alt="Responsive image">
-                <h4>Students for Trump Pack Arizona Event After TikTok Teens' Tulsa Mischief</h4>
-                <p>Thousands of students packed into an Arizona auditorium amid a coronavirus resurgence to hear from President Donald Trump.</p>
-              </div>
-              <div class="col-3">
-                <p>THE DEBATE</p>
-                <div class="row">
-                    <div class="col-4"><img src="https://d.newsweek.com/en/full/1601312/j-christian-adams-hans-von-spakovsky.png?w=150&h=150&f=ab899e5f7a2565301e49cc393100fd20" class="img-fluid .rounded-circle" alt="Responsive image"></div>
-                    <p class="col-8">An All-Mail Election Would Be Dangerous for Democracy
-                        BY J. CHRISTIAN ADAMS AND HANS VON SPAKOVSKY</p>
+              <hr class="gray-line">
+              <div class="col-12 d-flex justify-content-between">
+                <img class="w-25 p-1"
+                  src="https://d.newsweek.com/en/full/1603860/democrats-leading-gop-incumbents-key-senate-races.webp?w=95&h=95&f=76bac7a7d33d05ecc07525959dfbc1a5"
+                  alt="pic" height="100">
+                <div class="">
+                  <p>Democratic Challengers Lead GOP Incumbents in Key Senate Races, Polls Show</p>
+                  <p>Polling averages in Arizona, Maine and North Carolina currently show Democrats in the lead,
+                    according to Real Clear Politics.</p>
                 </div>
-                
               </div>
+              <hr class="gray-line">
+
+              <div class="col-12 d-flex justify-content-between border-dark">
+                <img class="w-25 p-1"
+                  src="https://d.newsweek.com/en/full/1603860/democrats-leading-gop-incumbents-key-senate-races.webp?w=95&h=95&f=76bac7a7d33d05ecc07525959dfbc1a5"
+                  alt="pic" height="100">
+                <div class="">
+                  <p>Democratic Challengers Lead GOP Incumbents in Key Senate Races, Polls Show</p>
+                  <p>Polling averages in Arizona, Maine and North Carolina currently show Democrats in the lead,
+                    according to Real Clear Politics.</p>
+                </div>
+              </div>
+              <hr class="gray-line">
+
+              <div class="col-12 d-flex justify-content-between border-dark">
+                <img class="w-25 p-1"
+                  src="https://d.newsweek.com/en/full/1603860/democrats-leading-gop-incumbents-key-senate-races.webp?w=95&h=95&f=76bac7a7d33d05ecc07525959dfbc1a5"
+                  alt="pic" height="100">
+                <div class="">
+                  <p>Democratic Challengers Lead GOP Incumbents in Key Senate Races, Polls Show</p>
+                  <p>Polling averages in Arizona, Maine and North Carolina currently show Democrats in the lead,
+                    according to Real Clear Politics.</p>
+                </div>
+              </div>
+              <hr class="gray-line">
+
+              <div class="col-12 d-flex justify-content-between border-dark">
+                <img class="w-25 p-1"
+                  src="https://d.newsweek.com/en/full/1603860/democrats-leading-gop-incumbents-key-senate-races.webp?w=95&h=95&f=76bac7a7d33d05ecc07525959dfbc1a5"
+                  alt="pic" height="100">
+                <div class="">
+                  <p>Democratic Challengers Lead GOP Incumbents in Key Senate Races, Polls Show</p>
+                  <p>Polling averages in Arizona, Maine and North Carolina currently show Democrats in the lead,
+                    according to Real Clear Politics.</p>
+                </div>
+              </div>
+              <hr class="gray-line">
+
+              <div class="col-12 d-flex justify-content-between border-dark">
+                <img class="w-25 p-1"
+                  src="https://d.newsweek.com/en/full/1603860/democrats-leading-gop-incumbents-key-senate-races.webp?w=95&h=95&f=76bac7a7d33d05ecc07525959dfbc1a5"
+                  alt="pic" height="100">
+                <div class="">
+                  <p>Democratic Challengers Lead GOP Incumbents in Key Senate Races, Polls Show</p>
+                  <p>Polling averages in Arizona, Maine and North Carolina currently show Democrats in the lead,
+                    according to Real Clear Politics.</p>
+                </div>
+              </div>
+              <hr class="gray-line">
+
+              <div class="col-12 d-flex justify-content-between border-dark">
+                <img class="w-25 p-1"
+                  src="https://d.newsweek.com/en/full/1603860/democrats-leading-gop-incumbents-key-senate-races.webp?w=95&h=95&f=76bac7a7d33d05ecc07525959dfbc1a5"
+                  alt="pic" height="100">
+                <div class="">
+                  <p>Democratic Challengers Lead GOP Incumbents in Key Senate Races, Polls Show</p>
+                  <p>Polling averages in Arizona, Maine and North Carolina currently show Democrats in the lead,
+                    according to Real Clear Politics.</p>
+                </div>
+              </div>
+              <hr class="gray-line">
+
+              <div class="col-12 d-flex justify-content-between border-dark">
+                <img class="w-25 p-1"
+                  src="https://d.newsweek.com/en/full/1603860/democrats-leading-gop-incumbents-key-senate-races.webp?w=95&h=95&f=76bac7a7d33d05ecc07525959dfbc1a5"
+                  alt="pic" height="100">
+                <div class="">
+                  <p>Democratic Challengers Lead GOP Incumbents in Key Senate Races, Polls Show</p>
+                  <p>Polling averages in Arizona, Maine and North Carolina currently show Democrats in the lead,
+                    according to Real Clear Politics.</p>
+                </div>
+              </div>
+              <hr class="gray-line">
+
+              <div class="col-12 d-flex justify-content-between border-dark">
+                <img class="w-25 p-1"
+                  src="https://d.newsweek.com/en/full/1603860/democrats-leading-gop-incumbents-key-senate-races.webp?w=95&h=95&f=76bac7a7d33d05ecc07525959dfbc1a5"
+                  alt="pic" height="100">
+                <div class="">
+                  <p>Democratic Challengers Lead GOP Incumbents in Key Senate Races, Polls Show</p>
+                  <p>Polling averages in Arizona, Maine and North Carolina currently show Democrats in the lead,
+                    according to Real Clear Politics.</p>
+                </div>
+              </div>
+              <hr class="gray-line">
+
+              <div class="col-12 d-flex justify-content-between border-dark">
+                <img class="w-25 p-1"
+                  src="https://d.newsweek.com/en/full/1603860/democrats-leading-gop-incumbents-key-senate-races.webp?w=95&h=95&f=76bac7a7d33d05ecc07525959dfbc1a5"
+                  alt="pic" height="100">
+                <div class="">
+                  <p>Democratic Challengers Lead GOP Incumbents in Key Senate Races, Polls Show</p>
+                  <p>Polling averages in Arizona, Maine and North Carolina currently show Democrats in the lead,
+                    according to Real Clear Politics.</p>
+                </div>
+              </div>
+              <hr class="gray-line">
+
+              <div class="col-12 d-flex justify-content-between border-dark">
+                <img class="w-25 p-1"
+                  src="https://d.newsweek.com/en/full/1603860/democrats-leading-gop-incumbents-key-senate-races.webp?w=95&h=95&f=76bac7a7d33d05ecc07525959dfbc1a5"
+                  alt="pic" height="100">
+                <div class="">
+                  <p>Democratic Challengers Lead GOP Incumbents in Key Senate Races, Polls Show</p>
+                  <p>Polling averages in Arizona, Maine and North Carolina currently show Democrats in the lead,
+                    according to Real Clear Politics.</p>
+                </div>
+              </div>
+              <hr class="gray-line">
+
+              <div class="col-12 d-flex justify-content-between border-dark">
+                <img class="w-25 p-1"
+                  src="https://d.newsweek.com/en/full/1603860/democrats-leading-gop-incumbents-key-senate-races.webp?w=95&h=95&f=76bac7a7d33d05ecc07525959dfbc1a5"
+                  alt="pic" height="100">
+                <div class="">
+                  <p>Democratic Challengers Lead GOP Incumbents in Key Senate Races, Polls Show</p>
+                  <p>Polling averages in Arizona, Maine and North Carolina currently show Democrats in the lead,
+                    according to Real Clear Politics.</p>
+                </div>
+              </div>
+              <hr class="gray-line">
+
+              <div class="col-12 d-flex justify-content-between border-dark">
+                <img class="w-25 p-1"
+                  src="https://d.newsweek.com/en/full/1603860/democrats-leading-gop-incumbents-key-senate-races.webp?w=95&h=95&f=76bac7a7d33d05ecc07525959dfbc1a5"
+                  alt="pic" height="100">
+                <div class="">
+                  <p>Democratic Challengers Lead GOP Incumbents in Key Senate Races, Polls Show</p>
+                  <p>Polling averages in Arizona, Maine and North Carolina currently show Democrats in the lead,
+                    according to Real Clear Politics.</p>
+                </div>
+              </div>
+
+
+
+
+
+
+
+
+
+            </div>
+
+          </div>
+        </div>
+
+
+
+        <!-- ******************Close of Second Column div**************** -->
+      </div>
+
+      <!-- ***********************************Third Column**************************************************** -->
+      <div class="col-lg col-md-12 col-sm-12 pr-4 ">
+        <p><a>THE DEBATE</a></p>
+
+        <div class="vs-style-container">
+          <div class=vs-style-txt>VS</div>
+          <div class="first-debate">
+
+            <div class="opinion-img">
+              <img
+                src="https://d.newsweek.com/en/full/1597017/joan-cook.webp?w=63&h=63&f=1567ffcb0be01f68b9806f127cfd127d"
+                alt="" class="mt-3" />
+            </div>
+
+            <div class="debate-text font-weight-bold px-3 mt-1 pb-2 pb-md-4">
+              <span class="highlight">Empty Cradles Means a Bleaker Future</span>
+              <span class="author d-block mt-3 pb-2">
+                <span class=" text-secondary font-weight-normal h6">
+                  BY</span>
+                LYMAN STONE AND W. BRADFORD WILCOX
+              </span>
+            </div>
           </div>
 
-          
+
+
+          <!-- +++++++++++++Second Debate+++++++++++++++++++++++ -->
+          <div class="second-debate">
+            <div class="debate-text font-weight-bold px-3 mt-2">
+              <span class="highlight">
+                Falling Birthrates Are No Big Deal </span>
+              <span class="author d-block mt-3">
+                <span class=" text-secondary font-weight-normal h6">
+                  BY</span>
+                MARINA ADSHADE
+              </span>
+            </div>
+
+            <div class="opinion-img">
+              <img
+                src="https://d.newsweek.com/en/full/1597017/joan-cook.webp?w=63&h=63&f=1567ffcb0be01f68b9806f127cfd127d"
+                alt="" class="mt-3" />
+            </div>
+
+          </div>
+
+        </div>
+        <!-- ***********************End of VS Style Container**************************** -->
+
+        <p class="h6 text-secondary text-uppercase mt-5" role="button">
+          OPINION
+        </p>
+
+        <!-- ++++++++++++++++++++++++OPINION SECTION+++++++++++++++++++++++ -->
+        <div class="opinion-parent">
+          <!-- ++++++++++++++++++++First Opinion++++++++++++++++++++++++++ -->
+          <div class="opinion">
+            <div class="opinion-img">
+              <img
+                src="https://d.newsweek.com/en/full/1597017/joan-cook.webp?w=63&h=63&f=1567ffcb0be01f68b9806f127cfd127d"
+                alt="" class="mt-3" />
+            </div>
+            <div class="opinion-text h6 px-3 py-2 font-weight-bold highlight">
+              Justice for George Floyd Is a Must. But to End the Cycle, We
+              Need Dialogue
+              <span class="author d-block mt-3 text-secondary pb-0">
+                BY JOAN COOK
+              </span>
+            </div>
+
+          </div>
+
+          <!-- ++++++++++++++++++++Second Opinion++++++++++++++++++++++++++ -->
+          <div class="opinion">
+            <div class="opinion-img">
+              <img
+                src="https://d.newsweek.com/en/full/1588751/jason-rantz.webp?w=63&h=63&f=f8afd026e20e8ab3f6d6fa08c4efc72c"
+                alt="" class="mt-3" />
+            </div>
+            <div class="opinion-text h6 px-3 py-2 font-weight-bold highlight">
+              Condemn the Selective Outrage of Virtue-Signaling Progressives
+
+              <span class="author d-block mt-3 text-secondary pb-0">
+                BY JASON RANTZ
+              </span>
+            </div>
+          </div>
+          <!-- ++++++++++++++++++++Third Opinion++++++++++++++++++++++++++ -->
+          <div class="opinion">
+            <div class="opinion-img">
+              <img
+                src="https://d.newsweek.com/en/full/1590779/jon-miltimore.webp?w=63&h=63&f=6af12982185dc188967e5b4a74826033"
+                alt="" class="mt-3" />
+            </div>
+            <div class="opinion-text h6 px-3 py-2 font-weight-bold highlight">
+              Drew Brees and the New "Struggle Sessions"
+
+              <span class="author d-block mt-3 text-secondary pb-0">
+                BY JON MILTIMORE
+              </span>
+            </div>
+          </div>
+          <!-- ++++++++++++++++++++Fourth Opinion++++++++++++++++++++++++++ -->
+          <div class="opinion">
+            <div class="opinion-img">
+              <img
+                src="https://d.newsweek.com/en/full/1597017/joan-cook.webp?w=63&h=63&f=1567ffcb0be01f68b9806f127cfd127d"
+                alt="" class="mt-3" />
+            </div>
+            <div class="opinion-text h6 px-3 py-2 font-weight-bold highlight">
+              Justice for George Floyd Is a Must. But to End the Cycle, We
+              Need Dialogue
+              <span class="author d-block mt-3 text-secondary pb-0">
+                BY JOAN COOK
+              </span>
+            </div>
+          </div>
+          <!-- ++++++++++++++++++++Fifth Opinion++++++++++++++++++++++++++ -->
+          <div class="opinion">
+            <div class="opinion-img">
+              <img
+                src="https://d.newsweek.com/en/full/1596520/jaco-booyens.webp?w=63&h=63&f=abf43a5056e2cea850a15db47d22a1c0"
+                alt="" class="mt-3" />
+            </div>
+            <div class="opinion-text h6 px-3 py-2 font-weight-bold highlight">
+              America Needs a Leader Who Will Confront China's Loan Sharking
+              in Africa
+
+              <span class="author d-block mt-3 text-secondary pb-0">
+                BY JACO BOOYENS
+              </span>
+            </div>
+          </div>
+
+          <!-- ++++++++++++++++++++Sixth Opinion++++++++++++++++++++++++++ -->
+          <div class="opinion">
+            <div class="opinion-img">
+              <img
+                src="https://d.newsweek.com/en/full/1590132/john-yoo-robert-delahunty.webp?w=63&h=63&f=9ca0e1ebe50ee1c76070df82a1d93c4e"
+                alt="" class="mt-3" />
+            </div>
+            <div class="opinion-text h6 px-3 py-2 font-weight-bold highlight">
+              Domestic Military Use Is Lawful but Not Yet Prudent
+
+              <span class="author d-block mt-3 text-secondary pb-0">
+                BY JOHN YOO AND ROBERT DELAHUNTY
+              </span>
+            </div>
+          </div>
+
+          <!-- +++++++++++++++++Sponsored Insight++++++++++++++++++++++++++++ -->
+          <div class="sponsored-parent">
+            <!-- +++++++++++++++++First Sponsored Insight++++++++++++++++++++++++++++ -->
+            <div class="card card-border tab-center mt-md-5">
+              <img
+                src="https://d.newsweek.com/en/full/1580691/university-virginias-college-wise.webp?w=300&h=200&f=665e3b331c54c8cbb72b88aa8e332939"
+                alt="card" class="card-img-top" />
+              <div class="card-body">
+                <div class="card-title h5 font-weight-bold text-black hover-underline">
+                  What Sets the Leading Liberal Arts Schools Apart
+                </div>
+                <div class="card-text">
+                  There are a number of great Liberal Arts Schools in the USA
+                  today, but what qualities do the best of them have?
+                </div>
+              </div>
+            </div>
+            <!-- ++++++++++++++++++Sponsor-form++++++++++++++++++++++ -->
+            <div class="news-letter card-border mx-auto mb-5 tab-center-2 mt-md-5">
+              <div class="h5 font-weight-bold">
+                <img src="images/logo-1.jpg" alt="logo image" />
+                START YOUR DAY WITH OUR TOP 5 ARTICLES
+              </div>
+              <div class="sponsor-form">
+                <form action="" class="form-group">
+                  <input type="text" placeholder="Email address" class="form-control" />
+                </form>
+              </div>
+              <button class="btn w-100 font-weight-bold text-light">
+                FREE SIGNUP &gt;
+              </button>
+            </div>
+            <!-- +++++++++++++++++Second Sponsored Insight++++++++++++++++++++++++++++ -->
+            <div class="card card-border mb-5 tab-center">
+              <img
+                src="https://d.newsweek.com/en/full/1579689/macau-university-science-technology.webp?w=300&h=200&f=484aba9a6ebd15eb3e59bd800e92e36e"
+                alt="card" class="card-img-top" />
+              <div class="card-body">
+                <div class="card-title h5 font-weight-bold text-black hover-underline">
+                  What Qualities Make a Leading University?
+                </div>
+                <div class="card-text">
+                  A Leading University has to have a track record of producing
+                  well qualified, gifted and employable candidates. Which
+                  schools earn the accolade?
+                </div>
+              </div>
+            </div>
+            <!-- +++++++++++++++++Third Sponsored Insight++++++++++++++++++++++++++++ -->
+            <div class="card card-border mb-5 tab-center">
+              <img
+                src="https://d.newsweek.com/en/full/1587568/infection-prevention-products-banner.webp?w=790&f=51a84fcc3ec1917f4953a8eef9ce66ac"
+                alt="card" class="card-img-top" />
+              <div class="card-body">
+                <div class="card-title h5 font-weight-bold text-black hover-underline">
+                  Best Infection Prevention Products
+                </div>
+                <div class="card-text">
+                  During the coronavirus outbreak, health care is more important
+                  than ever. In Newsweek's first Best Health Care series, we
+                  highlight the best infection prevention products.
+                </div>
+              </div>
+            </div>
+
+
+            <!-- +++++++++++++++++Forth Sponsored Insight++++++++++++++++++++++++++++ -->
+            <div class="card card-border mb-5 tab-center">
+              <img
+                src="https://d.newsweek.com/en/full/1587568/infection-prevention-products-banner.webp?w=790&f=51a84fcc3ec1917f4953a8eef9ce66ac"
+                alt="card" class="card-img-top" />
+              <div class="card-body">
+                <div class="card-title h5 font-weight-bold text-black hover-underline">
+                  Best Infection Prevention Products
+                </div>
+                <div class="card-text">
+                  During the coronavirus outbreak, health care is more important
+                  than ever. In Newsweek's first Best Health Care series, we
+                  highlight the best infection prevention products.
+                </div>
+              </div>
+            </div>
+
+
+            <!-- +++++++++++++++++Fifth Sponsored Insight++++++++++++++++++++++++++++ -->
+            <div class="card card-border mb-5 tab-center">
+              <img
+                src="https://d.newsweek.com/en/full/1587568/infection-prevention-products-banner.webp?w=790&f=51a84fcc3ec1917f4953a8eef9ce66ac"
+                alt="card" class="card-img-top" />
+              <div class="card-body">
+                <div class="card-title h5 font-weight-bold text-black hover-underline">
+                  Best Infection Prevention Products
+                </div>
+                <div class="card-text">
+                  During the coronavirus outbreak, health care is more important
+                  than ever. In Newsweek's first Best Health Care series, we
+                  highlight the best infection prevention products.
+                </div>
+              </div>
+            </div>
+
+
+            <!-- ******************Close of Third Column div**************** -->
+          </div>
+          <!--</div> -->
+          <!--* *****END of TRIAL DIV******* *-->
+
+
+        </div>
+        <!-- **********************End of Row div ************************************ -->
+
       </div>
-          
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  </body>
+
+      <!-- ********************************* IN THE MAGAZINE SECTION *************************** -->
+      <div class="col-12 d-flex justify-content-center align-items-center pt-3" height="70">
+        <img src="images/logo-1.jpg" alt="logo" height="35" width="35">
+        <h5 class="pl-3">IN THE MAGAZINE</h5>
+      </div>
+      <hr class="gray-line-2">
+      <!-- First Col -->
+      <div class="col-3  mt-2 pl-4">
+        <div class="card border-0">
+          <img class="img-top "
+            src="https://magdownload.org/wp-content/uploads/2020/06/Newsweek_USA_-_July_03_2020-scaled.jpg" alt="pic"
+            height="330" width="95%">
+          <span>SEE ALL FEATURES <i class="fas fa-chevron-right"></i></span>
+        </div>
+
+
+      </div>
+      <!-- Second Col -->
+      <div class="col-3  mt-2">
+        <div class="card border-0">
+          <img class="img-top mt-3"
+            src="https://d.newsweek.com/en/full/1601360/wesley-lowery-feature.webp?w=466&h=311&l=51&t=38&q=90&f=35548466efd24acf92f5967261d3c39b"
+            alt="pic" height="230">
+          <p><span>COVER</span> <span>US</span></p>
+          <p>Police Reform Alone Won't Stop Another George Floyd from Being Murdered</p>
+        </div>
+
+      </div>
+      <!-- Third Col -->
+      <div class="col-3 mt-2">
+        <div class="card border-0">
+          <img class="img-top mt-3"
+            src="https://d.newsweek.com/en/full/1603869/capt-ronald-johnson.webp?w=466&h=311&l=69&t=37&q=90&f=bd000d76364eba7143349dbc95dc57b2"
+            alt="pic" height="230">
+          <p><span class="bg-success">FEATURES </span> <span>OPINION</span></p>
+          <p>Check-the-Box Training Won't Work. Communities Of Color Must Drive Policing</p>
+        </div>
+
+
+      </div>
+      <!-- Fourth Col -->
+      <div class="col-3 mt-2 pr-4">
+        <div class="card border-0">
+          <img class="img-top mt-3"
+            src="https://d.newsweek.com/en/full/1603876/mark-cuban.webp?w=466&h=311&l=50&t=42&q=90&f=16ff1a982e54442ddb14f3cdf5ed65f2"
+            alt="pic" height="230">
+          <p><span>PERISCOPE </span> <span>BUSINESS</span></p>
+          <p>Mark Cuban Talks Race and Robotics</p>
+        </div>
+
+      </div>
+
+      <!-- Second ROW IN THE MAGAZINE -->
+
+      <!-- First Col -->
+      <div class="col-3  mt-2 pl-4">
+
+        <div class="card border-0">
+          <img class="img-top mt-lg-4 mt-md-5"
+            src="https://d.newsweek.com/en/full/1603876/mark-cuban.webp?w=466&h=311&l=50&t=42&q=90&f=16ff1a982e54442ddb14f3cdf5ed65f2"
+            alt="pic" height="230" width="95%">
+          <p><span>PERISCOPE </span> <span>BUSINESS</span></p>
+          <p>Mark Cuban Talks Race and Robotics</p>
+        </div>
+      </div>
+
+      <div class="col-3  mt-2 pl-4">
+
+        <div class="card border-0">
+          <img class="img-top mt-lg-4 mt-md-5"
+            src="https://d.newsweek.com/en/full/1603876/mark-cuban.webp?w=466&h=311&l=50&t=42&q=90&f=16ff1a982e54442ddb14f3cdf5ed65f2"
+            alt="pic" height="230" width="95%">
+          <p><span>PERISCOPE </span> <span>BUSINESS</span></p>
+          <p>Mark Cuban Talks Race and Robotics</p>
+        </div>
+      </div>
+
+      <div class="col-3  mt-2 pl-4">
+
+        <div class="card border-0">
+          <img class="img-top mt-lg-4 mt-md-5"
+            src="https://d.newsweek.com/en/full/1603876/mark-cuban.webp?w=466&h=311&l=50&t=42&q=90&f=16ff1a982e54442ddb14f3cdf5ed65f2"
+            alt="pic" height="230" width="95%">
+          <p><span>PERISCOPE </span> <span>BUSINESS</span></p>
+          <p>Mark Cuban Talks Race and Robotics</p>
+        </div>
+      </div>
+
+      <div class="col-3  mt-2 pl-4">
+
+        <div class="card border-0">
+          <img class="img-top mt-lg-4 mt-md-5"
+            src="https://d.newsweek.com/en/full/1603876/mark-cuban.webp?w=466&h=311&l=50&t=42&q=90&f=16ff1a982e54442ddb14f3cdf5ed65f2"
+            alt="pic" height="230" width="95%">
+          <p><span>PERISCOPE </span> <span>BUSINESS</span></p>
+          <p>Mark Cuban Talks Race and Robotics</p>
+        </div>
+      </div>
+
+
+      <!-- ***************************EDITORS PICK***************************** -->
+      <div class="col-12 d-flex justify-content-center align-items-center py-2" height="70">
+        <img src="images/logo-1.jpg" alt="logo" height="35" width="35">
+        <h4>EDITOR'S PICK</h4>
+      </div>
+      <hr class="gray-line-2">
+
+      <div class="col-lg-3 pl-4 pt-3 col-md-6">
+        <div class="card bottom-text-img">
+          <img class="card-img"
+            src="https://d.newsweek.com/en/full/1602965/president-donald-trump.webp?w=397&h=265&f=b8925fa098201742e1d82a70c8736a53"
+            alt="pic">
+          <p class="bottom-text-img-positn">TECH & SCIENCE</p>
+        </div>
+        <div class="card-block text-left">
+          <p>Trump 2020 App is Scooping up Massive Amounts of Data, Cyber Experts Warn</p>
+          <p>"It does appear to be more like a spy in a pocket rather than an app to help make an informed decision who
+            to vote for," one security commentator told Newsweek.</p>
+        </div>
+
+        <div class="card bottom-text-img">
+          <img class="card-img"
+            src="https://d.newsweek.com/en/full/1602965/president-donald-trump.webp?w=397&h=265&f=b8925fa098201742e1d82a70c8736a53"
+            alt="pic">
+          <p class="bottom-text-img-positn">TECH & SCIENCE</p>
+        </div>
+        <div class="card-block text-left">
+          <p>Trump 2020 App is Scooping up Massive Amounts of Data, Cyber Experts Warn</p>
+          <p>"It does appear to be more like a spy in a pocket rather than an app to help make an informed decision who
+            to vote for," one security commentator told Newsweek.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 pt-3 col-md-6">
+        <div class="card bottom-text-img">
+          <img class="card-img"
+            src="https://d.newsweek.com/en/full/1602965/president-donald-trump.webp?w=397&h=265&f=b8925fa098201742e1d82a70c8736a53"
+            alt="pic">
+          <p class="bottom-text-img-positn">TECH & SCIENCE</p>
+        </div>
+        <div class="card-block text-left">
+          <p>Trump 2020 App is Scooping up Massive Amounts of Data, Cyber Experts Warn</p>
+          <p>"It does appear to be more like a spy in a pocket rather than an app to help make an informed decision who
+            to vote for," one security commentator told Newsweek.</p>
+        </div>
+
+        <div class="card bottom-text-img">
+          <img class="card-img"
+            src="https://d.newsweek.com/en/full/1602965/president-donald-trump.webp?w=397&h=265&f=b8925fa098201742e1d82a70c8736a53"
+            alt="pic">
+          <p class="bottom-text-img-positn">TECH & SCIENCE</p>
+        </div>
+        <div class="card-block text-left">
+          <p>Trump 2020 App is Scooping up Massive Amounts of Data, Cyber Experts Warn</p>
+          <p>"It does appear to be more like a spy in a pocket rather than an app to help make an informed decision who
+            to vote for," one security commentator told Newsweek.</p>
+        </div>
+
+      </div>
+
+      <div class="col-lg-3 pt-3 col-md-6">
+        <div class="card bottom-text-img">
+          <img class="card-img"
+            src="https://d.newsweek.com/en/full/1602965/president-donald-trump.webp?w=397&h=265&f=b8925fa098201742e1d82a70c8736a53"
+            alt="pic">
+          <p class="bottom-text-img-positn">TECH & SCIENCE</p>
+        </div>
+        <div class="card-block text-left">
+          <p>Trump 2020 App is Scooping up Massive Amounts of Data, Cyber Experts Warn</p>
+          <p>"It does appear to be more like a spy in a pocket rather than an app to help make an informed decision who
+            to vote for," one security commentator told Newsweek.</p>
+        </div>
+
+        <div class="card bottom-text-img">
+          <img class="card-img"
+            src="https://d.newsweek.com/en/full/1602965/president-donald-trump.webp?w=397&h=265&f=b8925fa098201742e1d82a70c8736a53"
+            alt="pic">
+          <p class="bottom-text-img-positn">TECH & SCIENCE</p>
+        </div>
+        <div class="card-block text-left">
+          <p>Trump 2020 App is Scooping up Massive Amounts of Data, Cyber Experts Warn</p>
+          <p>"It does appear to be more like a spy in a pocket rather than an app to help make an informed decision who
+            to vote for," one security commentator told Newsweek.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 pt-3 pr-3 col-md-6">
+        <div class="card bottom-text-img">
+          <img class="card-img"
+            src="https://d.newsweek.com/en/full/1602965/president-donald-trump.webp?w=397&h=265&f=b8925fa098201742e1d82a70c8736a53"
+            alt="pic">
+          <p class="bottom-text-img-positn">TECH & SCIENCE</p>
+        </div>
+        <div class="card-block text-left">
+          <p>Trump 2020 App is Scooping up Massive Amounts of Data, Cyber Experts Warn</p>
+          <p>"It does appear to be more like a spy in a pocket rather than an app to help make an informed decision who
+            to vote for," one security commentator told Newsweek.</p>
+        </div>
+
+        <div class="card bottom-text-img">
+          <img class="card-img"
+            src="https://d.newsweek.com/en/full/1602965/president-donald-trump.webp?w=397&h=265&f=b8925fa098201742e1d82a70c8736a53"
+            alt="pic">
+          <p class="bottom-text-img-positn">TECH & SCIENCE</p>
+        </div>
+        <div class="card-block text-left">
+          <p>Trump 2020 App is Scooping up Massive Amounts of Data, Cyber Experts Warn</p>
+          <p>"It does appear to be more like a spy in a pocket rather than an app to help make an informed decision who
+            to vote for," one security commentator told Newsweek.</p>
+        </div>
+      </div>
+    </div>
+    <hr class="gray-line-2">
+
+    <!-- ***********************************US******************************* -->
+    <div class="col-12">
+      <P>U.S</P>
+    </div>
+
+    <div class="row px-3">
+      <div class="col-4 ">
+        <div class="card border-0">
+          <img class="card-img"
+            src="https://d.newsweek.com/en/full/1604267/chuck-grassley-trump-fox-news.webp?w=397&h=265&f=0a924a5673804e73a9796c499e79c1c7"
+            alt="pic">
+          <p class="bg-success">GOP Senator Questions if Fox News Even Wants Donald Trump Re-Elected</p>
+        </div>
+
+      </div>
+
+      <div class="col-4 ">
+        <div class="card border-0">
+          <img class="card-img"
+            src="https://d.newsweek.com/en/full/1604267/chuck-grassley-trump-fox-news.webp?w=397&h=265&f=0a924a5673804e73a9796c499e79c1c7"
+            alt="pic">
+          <p>GOP Senator Questions if Fox News Even Wants Donald Trump Re-Elected</p>
+        </div>
+      </div>
+
+
+      <div class="col-4">
+        <div class="d-flex border-bottom">
+          <img class="mb-2 pr-2"
+            src="https://d.newsweek.com/en/full/1604259/mayor-lyda-krewson.webp?w=397&h=265&f=5f3ed207db15ce4a3940e7d7b1f2b363"
+            alt="pic" height="80" width="100">
+          <p class="mb-1">St. Louis Mayor Gives Out Names, Addresses of Pro-Defund Police Protesters</p>
+        </div>
+
+        <div class="d-flex border-bottom">
+          <img class=" pr-2 my-2 "
+            src="https://d.newsweek.com/en/full/1604259/mayor-lyda-krewson.webp?w=397&h=265&f=5f3ed207db15ce4a3940e7d7b1f2b363"
+            alt="pic" height="100" width="100">
+          <p class="mb-1">St. Louis Mayor Gives Out Names, Addresses of Pro-Defund Police Protesters</p>
+        </div>
+
+        <div class="d-flex">
+          <img class="my-2 pr-2 "
+            src="https://d.newsweek.com/en/full/1604259/mayor-lyda-krewson.webp?w=397&h=265&f=5f3ed207db15ce4a3940e7d7b1f2b363"
+            alt="pic" height="100" width="100">
+          <p class="mb-1">St. Louis Mayor Gives Out Names, Addresses of Pro-Defund Police Protesters</p>
+        </div>
+      </div>
+
+
+    </div>
+    <hr class="gray-line-2">
+
+    <!-- ***********************************WORLD******************************* -->
+    <div class="col-12">
+      <P>WORLD</P>
+    </div>
+
+    <div class="row px-3">
+      <div class="col-4">
+        <div class="card border-0">
+          <img class="card-img"
+            src="https://d.newsweek.com/en/full/1604267/chuck-grassley-trump-fox-news.webp?w=397&h=265&f=0a924a5673804e73a9796c499e79c1c7"
+            alt="pic">
+          <p>GOP Senator Questions if Fox News Even Wants Donald Trump Re-Elected</p>
+        </div>
+
+      </div>
+
+      <div class="col-4">
+        <div class="card border-0">
+          <img class="card-img"
+            src="https://d.newsweek.com/en/full/1604267/chuck-grassley-trump-fox-news.webp?w=397&h=265&f=0a924a5673804e73a9796c499e79c1c7"
+            alt="pic">
+          <p>GOP Senator Questions if Fox News Even Wants Donald Trump Re-Elected</p>
+        </div>
+      </div>
+
+
+      <div class="col-4">
+        <div class="d-flex border-bottom">
+          <img class="mb-2 pr-2"
+            src="https://d.newsweek.com/en/full/1604259/mayor-lyda-krewson.webp?w=397&h=265&f=5f3ed207db15ce4a3940e7d7b1f2b363"
+            alt="pic" height="80" width="100">
+          <p class="mb-1">St. Louis Mayor Gives Out Names, Addresses of Pro-Defund Police Protesters</p>
+        </div>
+
+        <div class="d-flex border-bottom">
+          <img class=" pr-2 my-2"
+            src="https://d.newsweek.com/en/full/1604259/mayor-lyda-krewson.webp?w=397&h=265&f=5f3ed207db15ce4a3940e7d7b1f2b363"
+            alt="pic" height="100" width="100">
+          <p class="mb-1">St. Louis Mayor Gives Out Names, Addresses of Pro-Defund Police Protesters</p>
+        </div>
+
+        <div class="d-flex">
+          <img class="my-2 pr-2"
+            src="https://d.newsweek.com/en/full/1604259/mayor-lyda-krewson.webp?w=397&h=265&f=5f3ed207db15ce4a3940e7d7b1f2b363"
+            alt="pic" height="100" width="100">
+          <p class="mb-1">St. Louis Mayor Gives Out Names, Addresses of Pro-Defund Police Protesters</p>
+        </div>
+      </div>
+
+
+    </div>
+    <hr class="gray-line-2">
+
+    <!-- ***********************************BUSINESS******************************* -->
+    <div class="col-12">
+      <P>BUSINES</P>
+    </div>
+
+    <div class="row px-3">
+      <div class="col-4">
+        <div class="card border-0">
+          <img class="card-img"
+            src="https://d.newsweek.com/en/full/1604267/chuck-grassley-trump-fox-news.webp?w=397&h=265&f=0a924a5673804e73a9796c499e79c1c7"
+            alt="pic">
+          <p>GOP Senator Questions if Fox News Even Wants Donald Trump Re-Elected</p>
+        </div>
+
+      </div>
+
+      <div class="col-4">
+        <div class="card border-0">
+          <img class="card-img"
+            src="https://d.newsweek.com/en/full/1604267/chuck-grassley-trump-fox-news.webp?w=397&h=265&f=0a924a5673804e73a9796c499e79c1c7"
+            alt="pic">
+          <p>GOP Senator Questions if Fox News Even Wants Donald Trump Re-Elected</p>
+        </div>
+      </div>
+
+
+      <div class="col-4">
+        <div class="d-flex border-bottom">
+          <img class="mb-2 pr-2"
+            src="https://d.newsweek.com/en/full/1604259/mayor-lyda-krewson.webp?w=397&h=265&f=5f3ed207db15ce4a3940e7d7b1f2b363"
+            alt="pic" height="80" width="100">
+          <p class="mb-1">St. Louis Mayor Gives Out Names, Addresses of Pro-Defund Police Protesters</p>
+        </div>
+
+        <div class="d-flex border-bottom">
+          <img class=" pr-2 my-2"
+            src="https://d.newsweek.com/en/full/1604259/mayor-lyda-krewson.webp?w=397&h=265&f=5f3ed207db15ce4a3940e7d7b1f2b363"
+            alt="pic" height="100" width="100">
+          <p class="mb-1">St. Louis Mayor Gives Out Names, Addresses of Pro-Defund Police Protesters</p>
+        </div>
+
+        <div class="d-flex">
+          <img class="my-2 pr-2"
+            src="https://d.newsweek.com/en/full/1604259/mayor-lyda-krewson.webp?w=397&h=265&f=5f3ed207db15ce4a3940e7d7b1f2b363"
+            alt="pic" height="100" width="100">
+          <p class="mb-1">St. Louis Mayor Gives Out Names, Addresses of Pro-Defund Police Protesters</p>
+        </div>
+      </div>
+
+
+    </div>
+
+    <hr class="gray-line-2">
+
+    <!-- ***********************************TECH & SCIENCE******************************* -->
+    <div class="col-12">
+      <P>TECH & SCIENCE</P>
+    </div>
+
+    <div class="row px-3">
+      <div class="col-4">
+        <div class="card border-0">
+          <img class="card-img"
+            src="https://d.newsweek.com/en/full/1604267/chuck-grassley-trump-fox-news.webp?w=397&h=265&f=0a924a5673804e73a9796c499e79c1c7"
+            alt="pic">
+          <p>GOP Senator Questions if Fox News Even Wants Donald Trump Re-Elected</p>
+        </div>
+
+      </div>
+
+      <div class="col-4">
+        <div class="card border-0">
+          <img class="card-img"
+            src="https://d.newsweek.com/en/full/1604267/chuck-grassley-trump-fox-news.webp?w=397&h=265&f=0a924a5673804e73a9796c499e79c1c7"
+            alt="pic">
+          <p>GOP Senator Questions if Fox News Even Wants Donald Trump Re-Elected</p>
+        </div>
+      </div>
+
+
+      <div class="col-4">
+        <div class="d-flex border-bottom">
+          <img class="mb-2 pr-2"
+            src="https://d.newsweek.com/en/full/1604259/mayor-lyda-krewson.webp?w=397&h=265&f=5f3ed207db15ce4a3940e7d7b1f2b363"
+            alt="pic" height="80" width="100">
+          <p class="mb-1">St. Louis Mayor Gives Out Names, Addresses of Pro-Defund Police Protesters</p>
+        </div>
+
+        <div class="d-flex border-bottom">
+          <img class=" pr-2 my-2"
+            src="https://d.newsweek.com/en/full/1604259/mayor-lyda-krewson.webp?w=397&h=265&f=5f3ed207db15ce4a3940e7d7b1f2b363"
+            alt="pic" height="100" width="100">
+          <p class="mb-1">St. Louis Mayor Gives Out Names, Addresses of Pro-Defund Police Protesters</p>
+        </div>
+
+        <div class="d-flex">
+          <img class="my-2 pr-2"
+            src="https://d.newsweek.com/en/full/1604259/mayor-lyda-krewson.webp?w=397&h=265&f=5f3ed207db15ce4a3940e7d7b1f2b363"
+            alt="pic" height="100" width="100">
+          <p class="mb-1">St. Louis Mayor Gives Out Names, Addresses of Pro-Defund Police Protesters</p>
+        </div>
+      </div>
+
+
+    </div>
+
+    <hr class="gray-line-2">
+
+    <!-- ***********************************CULTURE******************************* -->
+    <div class="col-12">
+      <P>CULTURE</P>
+    </div>
+
+    <div class="row px-3">
+      <div class="col-4">
+        <div class="card border-0">
+          <img class="card-img"
+            src="https://d.newsweek.com/en/full/1604267/chuck-grassley-trump-fox-news.webp?w=397&h=265&f=0a924a5673804e73a9796c499e79c1c7"
+            alt="pic">
+          <p>GOP Senator Questions if Fox News Even Wants Donald Trump Re-Elected</p>
+        </div>
+
+      </div>
+
+      <div class="col-4">
+        <div class="card border-0">
+          <img class="card-img"
+            src="https://d.newsweek.com/en/full/1604267/chuck-grassley-trump-fox-news.webp?w=397&h=265&f=0a924a5673804e73a9796c499e79c1c7"
+            alt="pic">
+          <p>GOP Senator Questions if Fox News Even Wants Donald Trump Re-Elected</p>
+        </div>
+      </div>
+
+
+      <div class="col-4">
+        <div class="d-flex border-bottom">
+          <img class="mb-2 pr-2"
+            src="https://d.newsweek.com/en/full/1604259/mayor-lyda-krewson.webp?w=397&h=265&f=5f3ed207db15ce4a3940e7d7b1f2b363"
+            alt="pic" height="80" width="100">
+          <p class="mb-1">St. Louis Mayor Gives Out Names, Addresses of Pro-Defund Police Protesters</p>
+        </div>
+
+        <div class="d-flex border-bottom">
+          <img class=" pr-2 my-2"
+            src="https://d.newsweek.com/en/full/1604259/mayor-lyda-krewson.webp?w=397&h=265&f=5f3ed207db15ce4a3940e7d7b1f2b363"
+            alt="pic" height="100" width="100">
+          <p class="mb-1">St. Louis Mayor Gives Out Names, Addresses of Pro-Defund Police Protesters</p>
+        </div>
+
+        <div class="d-flex">
+          <img class="my-2 pr-2"
+            src="https://d.newsweek.com/en/full/1604259/mayor-lyda-krewson.webp?w=397&h=265&f=5f3ed207db15ce4a3940e7d7b1f2b363"
+            alt="pic" height="100" width="100">
+          <p class="mb-1">St. Louis Mayor Gives Out Names, Addresses of Pro-Defund Police Protesters</p>
+        </div>
+      </div>
+
+
+    </div>
+
+    <hr class="gray-line-2">
+
+    <!-- ***********************************SPORTS******************************* -->
+    <div class="col-12">
+      <P>SPORTS</P>
+    </div>
+
+    <div class="row px-3">
+      <div class="col-4">
+        <div class="card border-0">
+          <img class="card-img"
+            src="https://d.newsweek.com/en/full/1604267/chuck-grassley-trump-fox-news.webp?w=397&h=265&f=0a924a5673804e73a9796c499e79c1c7"
+            alt="pic">
+          <p>GOP Senator Questions if Fox News Even Wants Donald Trump Re-Elected</p>
+        </div>
+
+      </div>
+
+      <div class="col-4">
+        <div class="card border-0">
+          <img class="card-img"
+            src="https://d.newsweek.com/en/full/1604267/chuck-grassley-trump-fox-news.webp?w=397&h=265&f=0a924a5673804e73a9796c499e79c1c7"
+            alt="pic">
+          <p>GOP Senator Questions if Fox News Even Wants Donald Trump Re-Elected</p>
+        </div>
+      </div>
+
+
+      <div class="col-4">
+        <div class="d-flex border-bottom">
+          <img class="mb-2 pr-2"
+            src="https://d.newsweek.com/en/full/1604259/mayor-lyda-krewson.webp?w=397&h=265&f=5f3ed207db15ce4a3940e7d7b1f2b363"
+            alt="pic" height="80" width="100">
+          <p class="mb-1">St. Louis Mayor Gives Out Names, Addresses of Pro-Defund Police Protesters</p>
+        </div>
+
+        <div class="d-flex border-bottom">
+          <img class=" pr-2 my-2"
+            src="https://d.newsweek.com/en/full/1604259/mayor-lyda-krewson.webp?w=397&h=265&f=5f3ed207db15ce4a3940e7d7b1f2b363"
+            alt="pic" height="100" width="100">
+          <p class="mb-1">St. Louis Mayor Gives Out Names, Addresses of Pro-Defund Police Protesters</p>
+        </div>
+
+        <div class="d-flex">
+          <img class="my-2 pr-2"
+            src="https://d.newsweek.com/en/full/1604259/mayor-lyda-krewson.webp?w=397&h=265&f=5f3ed207db15ce4a3940e7d7b1f2b363"
+            alt="pic" height="100" width="100">
+          <p class="mb-1">St. Louis Mayor Gives Out Names, Addresses of Pro-Defund Police Protesters</p>
+        </div>
+      </div>
+
+
+    </div>
+
+    <hr class="gray-line-2">
+    <!-- Work on this section -->
+    <div class="row px-3">
+      <div class="col-lg-8 col-md-12 mb-4">
+        <p class="col-12">SUBSCRIBE</p>
+
+        <div class="col-12 ">
+          <div class="col-12 pix-bottom">
+            <div class=" col-lg-5 position-relative" width="">
+              <img class="card-img pic2-xx"
+                src="https://d.newsweek.com/en/full/1597761/cover-june-19-26-2020.jpg?w=170&q=95&f=5fb0215ca8fd65a8cfe24229880661d4"
+                alt="pic" height="250">
+              <img class="card-img movement pic2-xx"
+                src="https://d.newsweek.com/en/full/1603489/cover-july-03-2020.jpg?w=170&q=95&f=8446a36f196795281af9db53376bb9c9"
+                alt="pic" height="250">
+            </div>
+
+            <div class="in-depth col-7" width="">
+              <p class="pr-2">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</p>
+              <p>All Access + Weekly Delivery.</p>
+              <p>Choose A Membership That's Perfect for You!</p>
+              <a class="btn btn-danger text-white" href="#">SUBSCRIBE <i class="fas fa-chevron-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-12 mb-4">
+        <p class="col-12">NEWSLETTER</p>
+        <div class="starting-5">
+          <div class="col-5">
+            <img class=""
+              src="https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5"
+              alt="pic" height="300" width="100%">
+          </div>
+
+          <div class="col-7">
+            <h3>The Starting 5</h3>
+            <p>See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
+            <form action="">
+              <input class="col-md-12" type="email" placeholder="Email Address" width="auto">
+              <br><br>
+              <a class="btn  btn-block btn-warning" href="#">FREE SIGN UP <i class="fas fa-chevron-right"></i> </a>
+            </form>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+    <hr class="gray-line-2">
+
+    <div class="col-12 d-flex justify-content-between align-items-center s-height border-bottom">
+      <div>
+        <img class=" news-week" src="images/newsweek2.svg" alt="pic" height="100" width="200">
+        <span>© 2020 NEWSWEEK</span>
+      </div>
+
+      <div class="" width="150">
+        <i class="fab fa-2x fa-facebook s-icon s-icon-1 "></i>
+        <i class="fab fa-2x  fa-twitter s-icon s-icon-2"></i>
+        <i class="fab fa-2x  fa-instagram s-icon s-icon-3"></i>
+        <i class="fab fa-2x  fa-tumblr s-icon s-icon-4"></i>
+        <i class="fab fa-2x  fa-linkedin s-icon s-icon-5"></i>
+      </div>
+    </div>
+
+
+    <!-- ***********************************FOOTER SECTION********************************** -->
+    <div class="col-12">
+      <span class="border-right px-2 text-dark">Editions: <a class="text-dark" href="#">U.S. Edition </a></span>
+      <a class="border-right px-2 text-dark" href="#">日本</a>
+      <a class="border-right px-2 text-dark" href="#">Pakistan</a>
+      <a class="border-right px-2 text-dark" href="#">Polska</a>
+      <a class=" px-2 text-dark" href="#">România</a>
+
+
+    </div>
+
+    <div class="col-12">
+      <a class="border-right px-1 text-dark" href="#">About Us</a>
+      <a class="border-right px-1 text-dark" href="#">Corrections</a>
+      <a class="border-right px-1 text-dark" href="#">Contact Us</a>
+      <a class="border-right px-1 text-dark" href="#">Editorial Guidelines</a>
+      <a class="border-right px-1 text-dark" href="#">Advertise</a>
+      <a class="border-right px-1 text-dark" href="#">Copyright</a>
+      <a class="border-right px-1 text-dark" href="#">Terms & Conditions</a>
+      <a class="border-right px-1 text-dark" href="#">Privacy Policy</a>
+      <a class="border-right px-1 text-dark" href="#">Cookie Policy</a>
+      <a class="border-right px-1 text-dark" href="#">Terms of Sale</a>
+      <a class="border-right px-1 text-dark" href="#">Archive</a>
+      <a class="border-right px-1 text-dark" href="#">Announcements</a>
+      <a class=" px-1 text-dark" href="#">Consent preferences</a>
+    </div>
+
+
+    <!-- ***********End of IN THE MAIN SECTION************* -->
+  </div>
+
+  </div>
+
+
+  <!-- ************************************************Main End********************************************** -->
+
+
+
+
+  <!-- ****************************************************Optional JavaScript********************************** -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+  </script>
+</body>
+
 </html>
