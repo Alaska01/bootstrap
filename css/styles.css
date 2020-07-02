@@ -1,4 +1,4 @@
-.top-page     {
+.top-page  {
     height: 100px;
 }
 
@@ -66,10 +66,9 @@ a:hover {
     margin: 0 auto;
   }
 
-.gray-line {
+  .gray-line {
   border-top: gray 1px solid;
-  width: 95%;
-}
+  width: 95%;}
 
 .gray-line-2 {
   border-top: gray 1px solid;
