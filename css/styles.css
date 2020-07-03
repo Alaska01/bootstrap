@@ -200,43 +200,11 @@ img:hover {
   background-color: white;
 }
 
-/* .pix-bottom {
-  display: flex;
-  justify-content: space-between;
-  background-color: lightgray;
-  height: 500px;
-  align-items: center;
-  flex-wrap: nowrap;
-} */
-
 .movement-1 {
   position: absolute;
   top: 15%;
   left: 25%;
 }
-
-/* .movement {
-  position: absolute;
-  top: 7%;
-  left: 30%;
-} */
-
-/* .in-depth {
-  padding-left: 10%;
-} */
-
-/* .starting-5 {
-  display: flex;
-  justify-content: space-between;
-  height: 500px;
-  background-color: lawngreen;
-  z-index: 320000;
-} */
-
-/* .starting-5 div {
-  padding-right: 15px;
-  box-sizing: border-box;
-} */
 
 .s-icon {
   padding: 5px;
@@ -271,12 +239,6 @@ nav ul li .nav-sport {
   padding: 0 0.8rem;
   box-sizing: border-box;
 }
-
-/* .d-flex-3 {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: nowrap;
-} */
 
 .pic2-xx {
   width: 70%;
