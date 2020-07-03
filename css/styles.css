@@ -2,6 +2,20 @@
   height: 100px;
 }
 
+.editors-pic-img {
+  width: 35px;
+  height: 35px;
+}
+
+.height-70-px {
+  height: 70px;
+}
+
+.w-100-h-230 {
+  height: 100%;
+  width: 100%;
+}
+
 .btn-linear {
   border-radius: 10px;
   width: 150px;
@@ -49,6 +63,18 @@ a:hover {
   border-bottom: 5px solid blue;
   margin-top: 1px;
   padding-top: 10px;
+}
+
+.auto-height {
+  height: auto;
+}
+
+.auto-width {
+  width: auto;
+}
+
+.w-150-px {
+  width: 150px;
 }
 
 .debator-img {
@@ -174,36 +200,43 @@ img:hover {
   background-color: white;
 }
 
-.pix-bottom {
+/* .pix-bottom {
   display: flex;
   justify-content: space-between;
   background-color: lightgray;
   height: 500px;
   align-items: center;
   flex-wrap: nowrap;
+} */
+
+.movement-1 {
+  position: absolute;
+  top: 15%;
+  left: 25%;
 }
 
-.movement {
+/* .movement {
   position: absolute;
   top: 7%;
   left: 30%;
-}
+} */
 
-.in-depth {
-  margin-left: 5%;
-}
+/* .in-depth {
+  padding-left: 10%;
+} */
 
-.starting-5 {
+/* .starting-5 {
   display: flex;
   justify-content: space-between;
-  height: 600px;
+  height: 500px;
   background-color: lawngreen;
-}
+  z-index: 320000;
+} */
 
-.starting-5 div {
+/* .starting-5 div {
   padding-right: 15px;
   box-sizing: border-box;
-}
+} */
 
 .s-icon {
   padding: 5px;
@@ -239,11 +272,11 @@ nav ul li .nav-sport {
   box-sizing: border-box;
 }
 
-.d-flex-3 {
+/* .d-flex-3 {
   display: flex;
   justify-content: space-between;
   flex-wrap: nowrap;
-}
+} */
 
 .pic2-xx {
   width: 70%;
@@ -266,10 +299,19 @@ nav ul li .nav-sport {
   display: inline-block;
 }
 
+.breath {
+  width: 100%;
+  margin: 0 auto;
+}
+
 /* **************************TABLETS*********************************** */
 @media only screen and (max-width: 991px) and (min-width: 768px) {
   .top-page {
     height: 50px;
+  }
+
+  .w-150-px {
+    width: 150px;
   }
 
   .newsweek-img-nav {
@@ -296,12 +338,16 @@ nav ul li .nav-sport {
     display: none;
   }
 
-  .sub-height {
+  .auto-width {
+    width: auto;
+  }
+
+  /* .sub-height {
     width: 100%;
-    height: 600px;
+    height: 500px;
     background-color: lawngreen;
     border: 2px solid green;
-  }
+  } */
 }
 
 /* ********************* MOBILE****************** */
@@ -309,6 +355,10 @@ nav ul li .nav-sport {
 @media only screen and (max-width: 767px) {
   .top-page {
     height: 50px;
+  }
+
+  .w-150-px {
+    width: 150px;
   }
 
   .newsweek-img-nav {
@@ -360,22 +410,22 @@ nav ul li .nav-sport {
     width: 130;
   }
 
-  .pix-bottom-container {
+  /* .pix-bottom-container {
     height: auto;
-  }
+  } */
 
-  .pix-bottom {
+  /* .pix-bottom {
     display: flex;
     justify-content: space-between;
     background-color: lightgray;
     height: 600px;
     align-items: center;
     flex-wrap: nowrap;
-  }
+  } */
 
-  .sub-height {
+  /* .sub-height {
     height: 600px;
-  }
+  } */
 
   .ft-1 {
     height: auto;
